@@ -1,0 +1,74 @@
+MessagesPrefix: '&5[&bAntiXrayHeuristics&5]'
+NoPermissionForCommand: '&bNo tienes permiso para ejecutar este comando.'
+PlayerOnlyCommand: '&bNecesitas ser un/a jugador/a para ejecutar este comando sin
+  argumentos.'
+InvalidCMDArg: '&bArgumento invalido.'
+PlayerNotOnlineOnHandle: '&bJugador/a llamad@ &e{PlayerName} &bno fue encontrad@ cuando
+  se intentaba tratar de Xrayer. El/la jugador/a debe encontrarse online.'
+Reloaded: '&bAntiXrayHeuristics has reloaded.'
+PlayerAbsolved: '&bAbsolviendo jugador/a, enviando objetos confiscados de vuelta y
+  retirandolos del vault.'
+PlayerNotOnlineOnAbsolution: '&bEl/la jugador/a no se encontraba online. Solo puedes
+  absolver a jugadores/as que se encuentren conectados para devolver sus items.'
+PlayerDataPurged: '&bLos datos del jugador fueron retirados del vault de xrayers.'
+PurgeCommandLimit: '&bPurgar a jugadores mediante comando es imposible actualmente
+  para jugadores que no se encuentran conectados/as al servidor. Sin embargo, puedes
+  purgar jugadores individuales que se encuentren offline si utilizas la GUI: /axh
+  v'
+OwnSuspicionNullified: '&bTu nivel de sospecha ha sido anulado.'
+PlayerSuspicionNullified: '&e{PlayerName}&b: Nivel de sospecha anulado.'
+NoOwnSuspicionReset: '&bNo eres sospechos@ de uso de xrays. No se aplicó ningún reset.'
+NoPlayerSuspicionReset: '&e{PlayerName}&b no es sospechos@ de uso de xrays. No se
+  aplico ningun reset de sospecha.'
+AbsolvedPlayer: '&e{PlayerName} &bha sido absuelt@ de ser considerad@ xrayer, y sus
+  items le han sido devueltos.'
+AutoHandledPlayer: '&a{PlayerName} &bfue automaticamente registrado y tratado por
+  xrays.'
+PlayerMessageOnXray: '&bFuiste castigad@ por uso de xrays, desinstalalos inmediatamente.
+  Puedes seguir jugando unicamente tras haberlos desinstalado.'
+ForcedPageZero: '&bFuiste automaticamente enviado a la pagina 0 del Vault de xrayers
+  puesto que uno o varios jugadores fueron purgados o absueltos.'
+VaultRefreshed: '&bMostrando informacion de xrayers reciente.'
+TeleportToHandleLocation: '&bFuiste teleportado a la localizacion donde el xrayer
+  fue detectado.'
+SQLDisconError: '&bThere was an error when attempting to disconnect from SQL database.'
+GUITitle: '&9Xrayer vault '
+BackButtonTitle: '&aAtras'
+GoBackButtonTitle: '&aIrAtras'
+NextButtonTitle: '&aSiguiente'
+PurgeButtonTitle: '&4Purgar vault'
+PurgeButtonDesc:
+- '&bEsto eliminara todas las'
+- '&bentradas de xrayers en el vault.'
+- '&bLas entradas son irrecuperables'
+- '&bdespues de ser purgadas.'
+RefreshButtonTitle: '&9Refrescar vault'
+RefreshButtonDesc:
+- '&bRefresca las entradas de xrayers'
+- '&bmostrando de nuevas, modificadas, o'
+- '&bretirando xrayers.'
+PurgePlayerButtonTitle: '&4Purgar jugador'
+PurgePlayerButtonDesc:
+- '&bEsto eliminara a esta entrada'
+- '&bde xrayer especifica y su inventario.'
+- '&bLas entradas son irrecuperables'
+- '&bdespues de ser purgadas.'
+AbsolvePlayerButtonTitle: '&eAbsolve player'
+AbsolvePlayerButtonDesc:
+- '&bAbsolver a este/a jugador/a,'
+- '&bdevolviendo todos los objetos'
+- '&bconfiscados. Si no caben en el'
+- '&binventario de el/la jugador/a'
+- '&bseran dropeados cerca.'
+- '&bEsto tambien purga la entrada'
+- '&bde el/la jugador/a en el vault.'
+EntryDesc:
+- '&aVeces consecutivas tratad@: &b{HandledTimesAmount}'
+- '&aPrimera deteccion: &b{FirstTimeDetected}'
+- '&aUltima vez vist@: &b{LastSeenTime}'
+HandledXrayerSlotName: '&aHandled xrayer slot #{Slot}'
+EntryDescInspector:
+- '&aCLICK PARA TELETRANSPORTARSE a la localizacion de deteccion'
+- '&aVeces consecutivas tratad@: &b{HandledTimesAmount}'
+- '&aPrimera deteccion: &b{FirstTimeDetected}'
+- '&aUltima vez vist@: &b{LastSeenTime}'
